@@ -115,6 +115,10 @@ h2 {
     padding: auto;
 }
 
+.mapa p{
+    font-size: 1.25rem;
+}
+
 .contacto {
     padding-bottom: 30px;
     background-color: #f1ecf0;
