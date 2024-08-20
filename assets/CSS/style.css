@@ -1,3 +1,7 @@
+.nav-item:hover {
+    font-size: 18px;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -98,6 +102,17 @@ h2 {
     width: auto;
 }
 
+i {
+    color: rgb(51, 0, 35);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+i:hover {
+    color: #af0989;
+    font-size: 30px;
+}
+
 #habilidades {
     padding: auto;
 }
@@ -105,6 +120,10 @@ h2 {
 .habilidad {
     height: 160px;
     width: auto;
+}
+
+.card:hover {
+    border: 2px solid rgb(151, 3, 104);
 }
 
 .card-title{
