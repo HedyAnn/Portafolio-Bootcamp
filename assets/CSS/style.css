@@ -140,6 +140,14 @@ h2 {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
 .fa-brands{
     height: 5%;
     width: auto;
