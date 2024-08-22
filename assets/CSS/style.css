@@ -68,11 +68,22 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 5vw !important;
+    text-shadow: 
+    -1px -1px 0 #000,  /* Sombra arriba-izquierda */
+     1px -1px 0 #000,  /* Sombra arriba-derecha */
+    -1px  1px 0 #000,  /* Sombra abajo-izquierda */
+     1px  1px 0 #000;  /* Sombra abajo-derecha */
 }
 
-.parrafo-top {
+h4 {
     color: white;
     font-family: monospace;
+    font-weight: bolder !important;
+    text-shadow: 
+    -1px -1px 0 #000,  /* Sombra arriba-izquierda */
+     1px -1px 0 #000,  /* Sombra arriba-derecha */
+    -1px  1px 0 #000,  /* Sombra abajo-izquierda */
+     1px  1px 0 #000;  /* Sombra abajo-derecha */
 }
 
 h2 {
@@ -195,7 +206,7 @@ i:hover {
 }
 
 .bg-img {
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/Fondo2.png);
     background-size: cover;
     background-position: center;
     /* height: 800px;
